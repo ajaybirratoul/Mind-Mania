@@ -1,0 +1,320 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MindMania
+</name>
+</assembly>
+<members>
+<member name="P:Mind_Mania.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources._178007">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources._1780071">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources._95131645d89bf13e54bfbe4f78365804">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.abstract_rainbow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.animated_gifs_of_fighting_game_backgrounds_25">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.ARROW">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.BACKGROUND">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.BACKGROUNDROCK">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.blueborder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boat9">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boRQGDz">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.boulder_clipart_13308187491768495795Boulders_svg_hi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.CASUAL">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.character">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.CHEST">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.chest_clipart_treasure_chest5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.CLOSED_CHEST">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.COMPASS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.COMPASS1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.COMPASS2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.d21e5966_golfgreen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.d37443d62d4962425348079bc051aece">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.digimadmedia_stock_vectors_1364067057_abstract_red_purple_background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.DOWN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.fbfbffvfvf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.finder_clipart_41_clip_art_bird_blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.finder_clipart_41_clip_art_bird_blue1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.finder_clipart_41_clip_art_bird_blue2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.finder_clipart_41_clip_art_bird_blue3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.footer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.footer1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.Game">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.grass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.grass1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.HALF_CHEST">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.html_color_codes_color_tutorials_hero_00e10b1f">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.html_color_codes_color_tutorials_hero_00e10b1f1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.INVENTORY">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.LEFT">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.media_play_symbol_318_47368">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.MJMG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.mountain_and_forest_powerpoint_backgrounds_travel_discover_the_vw0oTd_clipart2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.MOUNTAIN_DIVE_CHAR">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.mygeomatic_Rapporteur_5_2400px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.OPEN_CHEST">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.pause_logo_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.plane_pulling_banner_vector_8550070">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.PROFILE">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.pshkvsky_gif2code_10_js">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.qmtumvxj5yow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.question_mark_318_52837">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.return_clipart_go_back_icon_md_14FB4BD5B0E65A3E735">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.RIGHT">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.rock_clipart_clipart_harvestable_resources_rock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.RTMG">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.scale_1_10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.scale_1_10vertical">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.tent_clip_art_green_tent_clip_art_vector_clip_art_online_royalty_free_public_600x284">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.tree_trunk">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.tree_trunkflipped">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.tropical_island_clipart_island_clipart_island_Clip_Art">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.tumblr_nlkzd1pEkS1qi83i1o1_400">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.Untitled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.UP">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Mind_Mania.My.Resources.Resources.wind_clip_art_for_teachers_clipart_panda_free_clipart_images_wSd7qo_clipart">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Mind_Mania.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

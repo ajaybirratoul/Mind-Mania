@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BDEF3CA-95B5-414F-AD18-3223F032BF36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Mind_Mania.My.MyApplication</StartupObject>
+    <RootNamespace>Mind_Mania</RootNamespace>
+    <AssemblyName>Mind Mania</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Mind Mania.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Mind Mania.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chest.Designer.vb">
+      <DependentUpon>Chest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.vb">
+      <DependentUpon>Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrustions.Designer.vb">
+      <DependentUpon>Instrustions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Instrustions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INVENTORY.Designer.vb">
+      <DependentUpon>INVENTORY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INVENTORY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOUNTAIN JUMP MINIGAME.Designer.vb">
+      <DependentUpon>MOUNTAIN JUMP MINIGAME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOUNTAIN JUMP MINIGAME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ROCK THROWING MINIGAME.Designer.vb">
+      <DependentUpon>ROCK THROWING MINIGAME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ROCK THROWING MINIGAME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chest.resx">
+      <DependentUpon>Chest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrustions.resx">
+      <DependentUpon>Instrustions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INVENTORY.resx">
+      <DependentUpon>INVENTORY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOUNTAIN JUMP MINIGAME.resx">
+      <DependentUpon>MOUNTAIN JUMP MINIGAME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ROCK THROWING MINIGAME.resx">
+      <DependentUpon>ROCK THROWING MINIGAME.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chest-clipart-treasure-chest5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\178007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\178007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tropical-island-clipart-island-clipart-island_Clip_Art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tent-clip-art-green-tent-clip-art-vector-clip-art-online-royalty-free-public-600x284.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LEFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RIGHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane-pulling-banner-vector-8550070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASUAL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountain-and-forest-powerpoint-backgrounds-travel-discover-the-vw0oTd-clipart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boulder-clipart-13308187491768495795Boulders.svg.hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boRQGDz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKGROUND.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLOSED-CHEST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HALF-CHEST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPEN-CHEST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question-mark_318-52837.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MOUNTAIN DIVE CHAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\95131645d89bf13e54bfbe4f78365804.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html-color-codes-color-tutorials-hero-00e10b1f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html-color-codes-color-tutorials-hero-00e10b1f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qmtumvxj5yow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animated-gifs-of-fighting-game-backgrounds-25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-rainbow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d37443d62d4962425348079bc051aece.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pshkvsky_gif2code_10_js.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueborder.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finder-clipart-41-clip_art_bird_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finder-clipart-41-clip_art_bird_blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finder-clipart-41-clip_art_bird_blue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finder-clipart-41-clip_art_bird_blue3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-play-symbol_318-47368.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_logo_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return-clipart-go-back-icon-md-14FB4BD5B0E65A3E735.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_nlkzd1pEkS1qi83i1o1_400.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\digimadmedia-stock-vectors-1364067057-abstract-red-purple-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fbfbffvfvf.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock-clipart-clipart-harvestable-resources-rock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree-trunk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree-trunkflipped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\footer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKGROUNDROCK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COMPASS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COMPASS1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARROW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COMPASS2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mygeomatic-Rapporteur-5-2400px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale-1-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale-1-10vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind-clip-art-for-teachers-clipart-panda-free-clipart-images-wSd7qo-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d21e5966_golfgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHEST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INVENTORY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MJMG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RTMG.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
